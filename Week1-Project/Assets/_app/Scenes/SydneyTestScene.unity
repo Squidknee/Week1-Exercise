@@ -407,7 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensX: 300
   sensY: 300
-  orientation: {fileID: 0}
+  orientation: {fileID: 991122763}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +765,8 @@ MonoBehaviour:
   movementSpeed: 5
   jumpForce: {x: 0, y: 3, z: 0}
   crouching: 0
+  orientation: {fileID: 991122763}
+  moveDirection: {x: 0, y: 0, z: 0}
   rb: {fileID: 1864395406}
   playerCamera: {fileID: 330585545}
 --- !u!1001 &1291661443181005675
