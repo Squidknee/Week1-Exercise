@@ -8,7 +8,7 @@ namespace _app.Scripts.TriggerExamples
     {
         [SerializeField] 
         [Header("Int Example")]
-        public int count;
+        public int scoreAmount;
 
         public Material triggeredMaterial;
         private Renderer boxRenderer;
@@ -25,7 +25,7 @@ namespace _app.Scripts.TriggerExamples
                 if (AudioManager.instance !=null && GameManager.instance !=null)
                 {
                     AudioManager.instance.PlayAudio();
-                    GameManager.instance.playerScore++;
+                    GameManager.instance.ChangeScore(scoreAmount);
                     if (boxRenderer != null && triggeredMaterial != null)
                     {
                         boxRenderer.material = triggeredMaterial;
@@ -48,18 +48,12 @@ namespace _app.Scripts.TriggerExamples
 
         public void OnCollisionEnter(Collision other)
         {
-            CountUp();
             Debug.Log(other.transform.name + " Collided with object");
         }
 
         public void OnCollisionExit(Collision other)
         {
             Debug.Log(other.transform.name + " No longer colliding with object");
-        }
-
-        private void CountUp()
-        {
-            count++;
         }
     }
 }
