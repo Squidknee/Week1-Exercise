@@ -1,4 +1,5 @@
 using System;
+using _app.Scripts.Managers;
 using UnityEngine;
 
 namespace _app.Scripts.Player
@@ -36,6 +37,15 @@ namespace _app.Scripts.Player
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.playerScore++;
+                }
+                else
+                {
+                    Debug.Log("GameManager is missing");
+                }
+
                 PlayerJump();
             }
         }
