@@ -40,6 +40,9 @@ namespace _app.Scripts.Player
                 if (GameManager.instance != null)
                 {
                     GameManager.instance.playerScore++;
+                    
+                    //add the delegate manager for testing purposes
+                    DelegateManager.scoreEvent?.Invoke();
                 }
                 else
                 {

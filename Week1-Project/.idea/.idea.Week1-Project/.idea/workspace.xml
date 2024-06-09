@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9c4c54-7010-43fe-b117-225cc2db261d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_app/Scripts/Managers/DelegateManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_app/Scripts/Managers/DelegateManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_app/Scripts/Managers/ScoreSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_app/Scripts/Managers/ScoreSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_app/Scripts/TriggerExamples/IDamageable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_app/Scripts/TriggerExamples/IDamageable.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Week1-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Week1-Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_app/Art Assets/Materials/Basic/Gold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_app/Art Assets/Materials/Basic/Gold.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_app/Scenes/SydneyTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_app/Scenes/SydneyTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_app/Scripts/Player/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_app/Scripts/Player/CharacterController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_app/Scripts/TriggerExamples/TriggerBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_app/Scripts/TriggerExamples/TriggerBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,29 +36,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "score",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;score&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Hiyal\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Hiyal\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Hiyal\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Hiyal\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Hiyal\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Hiyal\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\Week1.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Hiyal\Unity Projects\Week1-Exercise\Week1-Project\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.1f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\Hiyal\Unity Projects\Week1-Exercise\Week1-Project&quot; -debugCodeOptimization" />
@@ -101,6 +116,9 @@
       <workItem from="1716146846422" duration="5282000" />
       <workItem from="1716331179995" duration="3275000" />
       <workItem from="1716394728192" duration="4687000" />
+      <workItem from="1717540743817" duration="2132000" />
+      <workItem from="1717784465637" duration="2407000" />
+      <workItem from="1717974377499" duration="1368000" />
     </task>
     <servers />
   </component>
@@ -113,6 +131,7 @@
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
