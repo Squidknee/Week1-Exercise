@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace _app.Scripts.TriggerExamples
 {
-    public class TriggerBox : MonoBehaviour
+    public class TriggerBox : MonoBehaviour, IDamageable
     {
         [SerializeField] 
         [Header("Int Example")]
@@ -13,6 +13,14 @@ namespace _app.Scripts.TriggerExamples
         public Material triggeredMaterial;
         private Renderer boxRenderer;
 
+        public void Damage()
+        {
+            if (boxRenderer != null && triggeredMaterial != null)
+            {
+                boxRenderer.material = triggeredMaterial;
+            }
+            Destroy(this);
+        }
         private void Start()
         {
             boxRenderer = GetComponent<Renderer>();
@@ -26,11 +34,7 @@ namespace _app.Scripts.TriggerExamples
                 {
                     AudioManager.instance.PlayAudio();
                     GameManager.instance.ChangeScore(scoreAmount);
-                    if (boxRenderer != null && triggeredMaterial != null)
-                    {
-                        boxRenderer.material = triggeredMaterial;
-                    }
-                    Destroy(this);
+                    Damage();
                 }
                 else
                 {
